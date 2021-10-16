@@ -1,0 +1,68 @@
+.container {
+    padding: 20px;
+    margin: 20px 20px 0 20px;
+    border-radius: 8px;
+    background-color: #d5e2ed;
+}
+
+.square-small {
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
+    background-color: #bad072;
+}
+
+.square {
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    background-color: #6e9a44;
+}
+
+.square-big {
+    height: 240px;
+    width: 240px;
+    border-radius: 8px;
+    background-color: #0f3500;
+    margin-right: 24px;
+}
+
+.rectangle {
+    height: 112px;
+    width: 240px;
+    border-radius: 8px;
+    background-color: #3d9690;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+.centered {
+    margin: 0 auto;
+    width: 504px;
+}
+
+.square-small:not(:first-child) {
+    margin-left: 8px;
+}
+
+.square:not(:first-child) {
+    margin-left: 16px;
+}
+
+.square.no-margin {
+    margin: 0;
+}
+
+.rectangle:not(:first-child) {
+    margin-top: 16px;
+}
